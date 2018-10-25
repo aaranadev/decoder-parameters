@@ -1,6 +1,6 @@
 {
   "name": "@albertoarana/decoder-parameters",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": " A decoder parameters function to transform data in params format",
   "main": "dist/decoder-parameters.js",
   "module": "dist/decoder-parameters.esm.js",

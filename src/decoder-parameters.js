@@ -6,7 +6,7 @@
  * @param {*} [serialize] - Serialize to convert keys into output keys [optional]
  * @returns
  */
-function decoderParameters (data = '', serialize) {
+export default function decoderParameters (data = '', serialize) {
   const params = decodeURI(data.startsWith('?') ? data.slice(1) : data);
   const paramsSplit = params.split('&');
 
